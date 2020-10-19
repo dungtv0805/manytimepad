@@ -17,7 +17,7 @@ public class Key {
 
 			int b = 0;
 			for (Integer i : listNumberOfSpace) {
-				if (i >= 6) {
+				if (i >= 7) {
 //					int a = ct.listTargetCipherText.get(b);
 //					int c = a ^ 32;
 //					key.set(b, c);
@@ -30,7 +30,6 @@ public class Key {
 				}
 			}
 			a++;
-
 		}
 	}
 }

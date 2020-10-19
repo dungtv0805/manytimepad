@@ -22,7 +22,7 @@ public class Converter {
 	public static String hexaToDecimal2(String cipher) {
 		StringBuffer cipherDecimal = new StringBuffer();
 
-		for (int i = 0; i < cipher.length() - 2; i += 2) {
+		for (int i = 0; i < cipher.length(); i += 2) {
 			int j = i+2;
 			String decimal = hexaToDecimal(cipher.substring(i, j));
 			cipherDecimal.append(decimal);

@@ -107,9 +107,11 @@ public class CipherText {
 		}
 		
 		StringTokenizer st = new StringTokenizer(this.ciphertextDecimal.get(10), " ");
+		int c = 0;
 		while (st.hasMoreTokens()) {
 			int a = Integer.parseInt(st.nextToken());
 			listTargetCipherText.add(a);
+			c++;
 			
 		}
 
