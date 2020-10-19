@@ -1,4 +1,4 @@
-package manytimepad2;
+package manytimepad;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package manytimepad2;
+package manytimepad;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -20,7 +20,7 @@ public class CipherText {
 
 	public CipherText() {
 		// ciphertexts and ciphertextDecimal
-		File file = new File("C:\\Users\\Hello World\\eclipse-workspace\\manytimepad2\\src\\ciphertext.txt");
+		File file = new File("ciphertext.txt");
 
 		try {
 			Scanner scanner = new Scanner(file);
